@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "wdd131-3",
+			"path": "wdd131-3"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

@@ -1,0 +1,59 @@
+.content{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    max-width: 600px;
+    margin: 0 auto;
+    border: 8px;
+    border:black;
+}
+
+h1{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+    letter-spacing: 2px;
+   
+}
+
+h1, h2{
+    line-height: 1.5;
+}
+h2{
+    align-items: center;
+    font-size: 16px;
+    color:#006EB6;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-decoration-color: rgb(178, 174, 174);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 7px;
+    
+       
+}
+
+p{
+    padding-top: 20px;
+    align-items: left;
+    margin: 20px;
+    font-weight: 0.5em;
+}
+
+.content li{
+    margin: 1em;
+    padding-left: 1em;
+}
+.logo{
+    padding-top: 30px;
+    width: 150px;
+    align-items: center;
+    padding-left: 230px;
+}
+
+main{
+    border: black;
+    border: 8em;
+}
