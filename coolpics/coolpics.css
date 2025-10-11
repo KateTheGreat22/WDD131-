@@ -44,7 +44,7 @@ nav {
 }
 
 nav ul {
-  display: none; 
+  display: block; 
   list-style: none;
   padding: 0;
   margin: 0;
@@ -120,10 +120,11 @@ footer {
   .gallery {
     grid-template-columns: 1fr 1fr; 
   }
-
+}
   .close-viewer {
   position: absolute;
-  margin-top: 20vh;  
+  top: 100px; 
+  right: 253px; 
   z-index: 10;
   background: white; 
   border: none;
@@ -148,8 +149,20 @@ dialog img {
   display: block;
   width: 90%;  
 }
-}
 
+
+@media (min-width: 1000px) {
+     dialog img {
+       max-width: 50%;  /* Or whatever size looks good to you */
+     }
+   }
+
+  @media (max-width: 700px){
+      .close-viewer{
+        top: 90px; 
+        right: 7px; 
+      }
+  }
 
 @media (min-width: 1000px) {
   nav ul {
