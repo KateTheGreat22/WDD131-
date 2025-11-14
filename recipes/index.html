@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website for A Recipe Book">
+  <meta name="author" content="Kaitlyn Johnson">
+  <link rel="stylesheet" href="recipe.css">
+  <script src="main.js" defer></script>
+  <title>Recipe Book</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="Images/recipe-book.png" alt="">
+        <h1>Recipe Book</h1>
+    </div>
+    <div class="search-container">
+        <div class="search-form">
+            <input 
+                type="text" 
+                class="search-input" 
+                id="searchInput"
+                placeholder="Find A Recipe"
+                aria-label="Search">
+                <button class="search-button" id="searchButton" aria-label="Search">
+                <img src="Images/search.svg" alt="Search icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                </button>
+        </div>
+
+        <div class="results" id="results">
+            <h3>Search Results</h3>
+            <p id="resultsText"></p>
+    </div>
+</div>
+</header>
+
+<div class ="maincontainer">
+    <img src="Images/apple-crisp.jpg" alt="main apple-crisp">
+</div>
+    
+<div class="social">
+	<!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
+	<a href="#"><img src="Images/instagram_icon.svg" alt="instagram icon"></a>
+	<a href="#"><img src="Images/youtube_icon.svg" alt="youtube icon"></a>
+	<a href="#"><img src="Images/pinterest_icon.svg" alt="pinterest icon"></a>
+</div>
+</body>
+<footer>
+    <a href="https://www.flaticon.com/free-icons/recipe" 
+    title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
+</footer>
+</html>
