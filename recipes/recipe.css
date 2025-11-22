@@ -150,7 +150,7 @@ img {
     line-height: 1.6;
 }
 
-/* Main Recipe Card */
+/* Main Recipe Container */
 main {
     width: 100%;
     max-width: 1200px;
@@ -185,6 +185,25 @@ main {
     padding: 30px;
 }
 
+/* Tags Styles - NEW */
+.recipe__tags {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.recipe__tags li {
+    background: white;
+    border: 1px solid var(--text-dark);
+    padding: 5px 15px;
+    font-size: 1em;
+    text-transform: lowercase;
+}
+
+/* Keep old .tag style in case it's needed elsewhere */
 .tag {
     display: inline-block;
     width: 120px;
