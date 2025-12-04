@@ -8,13 +8,12 @@ body {
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #F8F9FA; /* Clean light gray */
+  background-color: #F8F9FA;
 }
 
 /* Header Styles */
 header {
   background: linear-gradient(135deg, #1A2332 0%, #2C3E50 100%);
-  /* Modern deep navy gradient */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -79,7 +78,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #FF6B6B; /* Vibrant coral */
+  background-color: #FF6B6B;
   color: #FFFFFF;
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
@@ -121,7 +120,7 @@ nav ul li a:hover {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   overflow: hidden;
-  border: 5px solid #2C3E50; /* Deep navy border */
+  border: 5px solid #2C3E50;
   flex-shrink: 0;
 }
 
@@ -134,7 +133,7 @@ nav ul li a:hover {
 
 .hero-quote-box {
   background-color: #FFFFFF;
-  border: 5px solid #FF6B6B; /* Coral border */
+  border: 5px solid #FF6B6B;
   border-radius: 12px;
   padding: 40px;
   max-width: 600px;
@@ -147,7 +146,7 @@ nav ul li a:hover {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.8em;
   font-style: italic;
-  color: #2C3E50; /* Deep navy text */
+  color: #2C3E50;
   margin: 0 0 20px 0;
   line-height: 1.6;
   transition: opacity 0.3s ease;
@@ -156,7 +155,7 @@ nav ul li a:hover {
 .quote-attribution {
   font-family: Tahoma, Verdana, sans-serif;
   font-size: 1.3em;
-  color: #FF6B6B; /* Coral accent */
+  color: #FF6B6B;
   font-weight: 600;
   text-align: right;
   margin: 0;
@@ -180,7 +179,6 @@ h2 {
   text-align: center;
   font-size: 3.7em;
   background: linear-gradient(135deg, #2C3E50 0%, #34495E 100%);
-  /* Navy gradient */
   color: #FFFFFF;
   padding: 40px 20px;
   margin: 0 0 40px 0;
@@ -203,7 +201,7 @@ h2 {
   width: 320px;
   height: 350px;
   object-fit: cover;
-  border: 0.4em solid #2C3E50; /* Navy border */
+  border: 0.4em solid #2C3E50;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease, border-color 0.3s ease;
@@ -213,7 +211,7 @@ h2 {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 12px 30px rgba(255, 107, 107, 0.3);
   filter: brightness(1.05);
-  border-color: #FF6B6B; /* Coral border on hover */
+  border-color: #FF6B6B;
 }
 
 /*About Page Styling */
@@ -229,7 +227,7 @@ h2 {
   font-family: Tahoma, Verdana, sans-serif;
   font-size: 1.2em;
   line-height: 1.8;
-  color: #495057; /* Modern gray text */
+  color: #495057;
   max-width: 900px;
   margin: 0 auto;
   padding: 0 30px 50px;
@@ -279,7 +277,7 @@ h2 {
 .form-group textarea {
   width: 100%;
   padding: 12px;
-  border: 2px solid #DEE2E6; /* Light gray border */
+  border: 2px solid #DEE2E6;
   border-radius: 8px;
   font-family: Tahoma, Verdana, sans-serif;
   font-size: 1em;
@@ -290,7 +288,7 @@ h2 {
 .form-group input[type="email"]:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #FF6B6B; /* Coral on focus */
+  border-color: #FF6B6B;
   box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.2);
 }
 
@@ -302,7 +300,6 @@ h2 {
 .submit-btn {
   width: 100%;
   background: linear-gradient(135deg, #FF6B6B 0%, #FF8787 100%);
-  /* Coral gradient */
   color: #FFFFFF;
   padding: 14px 40px;
   border: none;
@@ -317,7 +314,6 @@ h2 {
 
 .submit-btn:hover {
   background: linear-gradient(135deg, #2C3E50 0%, #34495E 100%);
-  /* Navy gradient */
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(44, 62, 80, 0.4);
 }
@@ -357,7 +353,7 @@ h2 {
 }
 
 .contact-method a:hover {
-  color: #FF6B6B; /* Coral on hover */
+  color: #FF6B6B;
   text-decoration: underline;
 }
 
@@ -373,7 +369,6 @@ footer {
   text-align: center;
   padding: 20px;
   background: linear-gradient(135deg, #1A2332 0%, #2C3E50 100%);
-  /* Navy gradient */
   color: #FFFFFF;
   margin-top: 40px;
   font-family: Tahoma, Verdana, sans-serif;
@@ -400,7 +395,7 @@ footer {
   text-decoration: none;
   padding: 30px;
   border-radius: 12px;
-  border: 3px solid #E9ECEF; /* Light gray border */
+  border: 3px solid #E9ECEF;
   transition: all 0.3s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
@@ -408,9 +403,8 @@ footer {
 .links a:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(255, 107, 107, 0.25);
-  border-color: #FF6B6B; /* Coral border */
+  border-color: #FF6B6B;
   background: linear-gradient(135deg, #FFF5F5 0%, #FFFFFF 100%);
-  /* Subtle coral tint on hover */
 }
 
 .links a .link-title {
@@ -423,7 +417,7 @@ footer {
 }
 
 .links a:hover .link-title {
-  color: #FF6B6B; /* Coral title on hover */
+  color: #FF6B6B;
 }
 
 .links a .link-description {
