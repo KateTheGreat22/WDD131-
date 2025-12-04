@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Display for Kaitlyn Johnson">
+  <meta name="author" content="Kaitlyn Johnson">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <title>Kaitlyn Johnson's Portfolio</title>
+</head>
+<body>
+<header>
+    <h1>Kaitlyn Johnson</h1>
+    <nav>
+      <button id="menu-button">Menu</button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="writingsample.html">Writing Samples</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+</header>
+
+<section class="welcome-section">
+  <h2 class="welcome-heading">Welcome To My Portfolio!</h2>
+</section>
+
+<section class="hero-banner">
+  <div class="hero-container">
+    <div class="hero-image">
+      <img src="mainforportfolio.jpg" alt="Kaitlyn Johnson">
+    </div>
+    <div class="hero-quote-box">
+      <blockquote id="rotating-quote" class="quote-text">
+        "Literature has the power to change lives and make learning accessible to all."
+      </blockquote>
+      <p class="quote-attribution">— Kaitlyn Johnson</p>
+    </div>
+  </div>
+</section>
+
+<main>
+    <div class="mainpage">
+        <div class="images">
+          <img src="mainforportfolio.jpg" alt="Kaitlyn_Fall">
+          <img src="Happy_Headshot.jpg" alt="Kaitlyn_Alps">
+          <img src="Kaitlyn_Fun.jpg" alt="Kaitlyn_Library">
+        </div>
+        <p>
+            My name is Kaitlyn Johnson, and I am a senior at BYUI. My passion is to help other people
+            be able to clearly communicate and feel confident in their writing styles. Over the course
+            of this website, you will find information about who I am, what my credentials are, and how to get 
+            into contact with me. Thank you for spending the time to get to know me!
+        </p>
+    </div>
+</main>
+<footer>
+    ©2025 - Kaitlyn Johnson
+</footer>
+
+<script>
+  const quotes = [
+    {
+      text: "Literature has the power to change lives and make learning accessible to all.",
+      author: "Kaitlyn Johnson"
+    },
+    {
+      text: "Every student deserves an advocate who believes in their potential.",
+      author: "Kaitlyn Johnson"
+    },
+    {
+      text: "Clear communication is the foundation of confident self-expression.",
+      author: "Kaitlyn Johnson"
+    },
+    {
+      text: "Great literature should be available to everyone, not gathering dust on shelves.",
+      author: "Kaitlyn Johnson"
+    },
+    {
+      text: "Education is not just about knowledge—it's about empowerment.",
+      author: "Kaitlyn Johnson"
+    }
+  ];
+
+  function displayRandomQuote() {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    const selectedQuote = quotes[randomIndex];
+    
+    const quoteElement = document.getElementById('rotating-quote');
+    const attributionElement = document.querySelector('.quote-attribution');
+
+    quoteElement.style.opacity = '0';
+    
+    setTimeout(() => {
+      quoteElement.textContent = `"${selectedQuote.text}"`;
+      attributionElement.textContent = `— ${selectedQuote.author}`;
+      quoteElement.style.opacity = '1';
+    }, 300);
+  }
+
+  window.addEventListener('DOMContentLoaded', displayRandomQuote);
+</script>
+</body>
+</html>
