@@ -6,17 +6,25 @@
   <meta name="description" content="Portfolio Display for Kaitlyn Johnson">
   <meta name="author" content="Kaitlyn Johnson">
   <link rel="stylesheet" href="styles.css">
-  <title>Writing Samples - Kaitlyn Johnson</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <script src="main.js" defer></script>
+  <title>Writing Samples - Kaitlyn Johnson's Portfolio</title>
 </head>
 <body>
 <header>
-    <h1>Kaitlyn Johnson</h1>
+    <div class="header-content">
+      <img src="logo-without-word.png" alt="Kaitlyn Johnson Logo" class="logo">
+      <h1>Kaitlyn Johnson</h1>
+    </div>
     <nav>
       <button id="menu-button">Menu</button>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="writingsample.html">Writing Samples</a></li>
+        <li><a href="writingsample.html" class="active">Writing Samples</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -24,21 +32,33 @@
 <main>
     <div class="mainpage">
       <h2>Writing Samples</h2>
-      <p>Explore my academic writing portfolio showcasing my rhetorical analysis, literary criticism, and close reading techniques.</p>
+      <p class="writing-intro">Explore my academic writing portfolio showcasing my rhetorical analysis, literary criticism, and close reading techniques.</p>
       <div class="links">
-        <a href="https://docs.google.com/document/d/1fp26x-tZ9Xv39yFu_IGAlVXSMUvb7UsprvsviUNXZqg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-          <span class="link-title">Rhetorical Analysis Example</span>
-          <span class="link-description">Analysis of persuasive techniques and argumentative structures within modern spoken word poetry</span>
+        <a href="https://docs.google.com/document/d/1fp26x-tZ9Xv39yFu_IGAlVXSMUvb7UsprvsviUNXZqg/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="writing-link">
+          <div class="link-icon">📝</div>
+          <div class="link-content">
+            <span class="link-title">Rhetorical Analysis Example</span>
+            <span class="link-description">Analysis of persuasive techniques and argumentative structures within modern spoken word poetry</span>
+            <span class="link-arrow">→</span>
+          </div>
         </a>
 
-        <a href="https://docs.google.com/document/d/1QX3xMr8lfuOovZ-8mtVr1AtZ6ZoRKFVBCJwWP3HWJPk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-          <span class="link-title">Close Reading Poetry Example</span>
-          <span class="link-description">In-depth examination of poetic devices and themes within Keats' Bright Star</span>
+        <a href="https://docs.google.com/document/d/1QX3xMr8lfuOovZ-8mtVr1AtZ6ZoRKFVBCJwWP3HWJPk/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="writing-link">
+          <div class="link-icon">✍️</div>
+          <div class="link-content">
+            <span class="link-title">Close Reading Poetry Example</span>
+            <span class="link-description">In-depth examination of poetic devices and themes within Keats' Bright Star</span>
+            <span class="link-arrow">→</span>
+          </div>
         </a>
 
-        <a href="https://docs.google.com/document/d/1m6v-gz953YjeAK2YARXk_R7HEKDboOf210zy2K5eOIA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-          <span class="link-title">Literary Criticism - Foucault Analysis Example</span>
-          <span class="link-description">Application of Foucauldian theory to an excerpt of The Adventures of Huckleberry Finn</span>
+        <a href="https://docs.google.com/document/d/1m6v-gz953YjeAK2YARXk_R7HEKDboOf210zy2K5eOIA/edit?usp=sharing" target="_blank" rel="noopener noreferrer" class="writing-link">
+          <div class="link-icon">📚</div>
+          <div class="link-content">
+            <span class="link-title">Literary Criticism - Foucault Analysis Example</span>
+            <span class="link-description">Application of Foucauldian theory to an excerpt of The Adventures of Huckleberry Finn</span>
+            <span class="link-arrow">→</span>
+          </div>
         </a>
       </div>
     </div>
